@@ -1,0 +1,22 @@
+{
+  "name": "startup-ascii",
+  "version": "1.0.0",
+  "description": "an ascii art image to be displayed in the console on start up of an angular app",
+  "main": "startup-ascii.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ascii",
+    "art",
+    "angular"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-string-replace": "^1.0.0"
+  }
+}

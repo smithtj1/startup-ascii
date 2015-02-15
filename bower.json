@@ -1,0 +1,26 @@
+{
+  "name": "startup-ascii",
+  "version": "0.0.0",
+  "homepage": "https://github.com/smithtj1/startup-ascii",
+  "authors": [
+    "Tim <smithtj1@gmail.com>"
+  ],
+  "description": "start up your angular app with some ascii art",
+  "main": "dist/js/startup-ascii.js",
+  "keywords": [
+    "ascii",
+    "angluar",
+    "start",
+    "up",
+    "milhouse"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
