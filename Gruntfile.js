@@ -55,7 +55,7 @@ module.exports = function(grunt) {
         var lines = img.split('\n');  
 
         lines.forEach(function(l){
-          contents = contents + l + '\\';
+          contents = contents + l + '\n';
         });
 
         contents = contents + end;
