@@ -47,15 +47,13 @@ module.exports = function(grunt) {
         console.log('reading: ' + abspath);
 
         contents = contents + filename.split('.')[0] + ': function(){';
-        contents = contents + 'console.log(\'';
-        
-        var end = '\n\'' + '); }, \n';
+        var end = '}, \n';
 
         var img = grunt.file.read(abspath);
         var lines = img.split('\n');  
 
         lines.forEach(function(l){
-          contents = contents + l + '\n';
+          contents = contents + 'console.log(\'' + l + '\'); ';
         });
 
         contents = contents + end;
