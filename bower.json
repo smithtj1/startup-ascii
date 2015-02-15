@@ -6,7 +6,7 @@
     "Tim <smithtj1@gmail.com>"
   ],
   "description": "start up your angular app with some ascii art",
-  "main": "dist/js/startup-ascii.js",
+  "main": "startup-ascii.js",
   "keywords": [
     "ascii",
     "angluar",

@@ -18,7 +18,7 @@ module.exports = function(grunt) {
     'string-replace': {
       dist: {
         src: './src/*.js',
-        dest: './dist/js/startup-ascii.js',
+        dest: 'startup-ascii.js',
         options: {
           replacements: [{
             pattern: 'IMAGE_FUNCTIONS',
