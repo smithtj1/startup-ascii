@@ -19,4 +19,16 @@ startupAscii.factory('startup-ascii-printer', function(){
 	}
 });
 
-//startupAscii.directive();
+startupAscii.directive('startupAscii', ['startup-ascii-printer', 
+	function(printer){
+		return{
+			restrict: 'E',
+		    replace: true,
+		    link: function(scope, element, attrs, controllers) {
+		    	if(attrs['image']){
+		    		printer.print(attrs['image']);
+		    	}  
+		    }
+		}	
+	}
+]);
